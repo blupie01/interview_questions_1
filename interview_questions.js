@@ -65,5 +65,10 @@ function fib(n) {
 		index1++;
 		index2++;
 	};
-	return numArray;
+
+	if (n === 0) {
+		return [0];
+	} else if (n === 1) {
+		return numArray;
+	} else return numArray;
 };
